@@ -11,7 +11,9 @@
 | `craftDescription`      | `string` | Дополнительно описание рецепта.                                     |
 | `resultPreview`         | `string` | Превью-иконка результата (classname предмета). Если указать класснейм, то в превью рецепта будет указана модель предмета, если указать путь к иконке, то будет выведена иконка. <br><img width="142" height="59" alt="image" src="https://github.com/user-attachments/assets/e09c9d1d-fe8b-466a-bf12-4c40552c1c83" /> <img width="143" height="59" alt="image" src="https://github.com/user-attachments/assets/4996c44a-0f5c-431f-92cb-8013166275c6" /> |
 | `buttonCraftTitle`      | `string` | Текст на кнопке крафта. По умолчанию "Создать предмет", но вы можете указать любое другое. <br><img width="191" height="112" alt="image" src="https://github.com/user-attachments/assets/9ea6be84-4524-47a1-8eba-3a571f36ccdc" /> <img width="213" height="127" alt="image" src="https://github.com/user-attachments/assets/cc6383f5-3dd7-4f5e-beb8-7a7f6da8bbeb" /> |
-| `progressTitle`         | `string` | Текст прогресса во время крафта.                       |
+| `progressTitle`         | `string` | Текст прогресса во время крафта. <br><img width="315" height="131" alt="image" src="https://github.com/user-attachments/assets/941286af-41ae-4fe8-a378-431de0257912" /> <img width="284" height="81" alt="image" src="https://github.com/user-attachments/assets/0c71f9bd-8a2e-4575-98fc-98145c37124b" />
+
+                      |
 | `craftMode`             | `int`    | Режим крафта (0 – обычный, может быть расширен модом). |
 | `craftTimeSec`          | `int`    | Время крафта в секундах.                               |
 | `spawnOutsideWorkbench` | `int`    | 1 – предмет появляется вне верстака, 0 – в нём.        |
