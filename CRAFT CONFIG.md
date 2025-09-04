@@ -9,9 +9,7 @@
 | `categoryID`            | `string` | Категория рецепта (например, `Craft`).                 |
 | `craftTitle`            | `string` | Название рецепта (отображается игроку). Если указать isClass_класснеймпредмета то название подтянется от названия указанного предмета в игре. |
 | `craftDescription`      | `string` | Дополнительно описание рецепта.                                     |
-| `resultPreview`         | `string` | Превью-иконка результата (classname предмета). Если указать класснейм, то в превью рецепта будет указана модель предмета, если указать путь к иконке, то будет выведена иконка. <img width="142" height="59" alt="image" src="https://github.com/user-attachments/assets/e09c9d1d-fe8b-466a-bf12-4c40552c1c83" /> <br><img width="143" height="59" alt="image" src="https://github.com/user-attachments/assets/4996c44a-0f5c-431f-92cb-8013166275c6" />
-
-    |
+| `resultPreview`         | `string` | Превью-иконка результата (classname предмета). Если указать класснейм, то в превью рецепта будет указана модель предмета, если указать путь к иконке, то будет выведена иконка. <img width="142" height="59" alt="image" src="https://github.com/user-attachments/assets/e09c9d1d-fe8b-466a-bf12-4c40552c1c83" /> <br><img width="143" height="59" alt="image" src="https://github.com/user-attachments/assets/4996c44a-0f5c-431f-92cb-8013166275c6" /> |
 | `buttonCraftTitle`      | `string` | Текст на кнопке крафта.                                |
 | `progressTitle`         | `string` | Текст прогресса во время крафта.                       |
 | `craftMode`             | `int`    | Режим крафта (0 – обычный, может быть расширен модом). |
