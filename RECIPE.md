@@ -8,7 +8,7 @@
 | `categoryID` | string | Категория рецепта (например, "Craft") |
 | `craftTitle` | string | Название рецепта, отображаемое в интерфейсе |
 | `craftDescription` | string | Описание рецепта |
-| `resultPreview` | string | Класс предмета для отображения превью результата |
+| `resultPreview` | string | Превью-иконка результата (classname предмета). Если указать класснейм, то в превью рецепта будет указана модель предмета, если указать путь к иконке, то будет выведена иконка. <br><img width="142" height="59" alt="image" src="https://github.com/user-attachments/assets/e09c9d1d-fe8b-466a-bf12-4c40552c1c83" /> <img width="143" height="59" alt="image" src="https://github.com/user-attachments/assets/4996c44a-0f5c-431f-92cb-8013166275c6" /> |
 | `buttonCraftTitle` | string | Текст на кнопке крафта (если пусто - используется стандартный) |
 | `progressTitle` | string | Текст, отображаемый во время процесса крафта |
 | `rarityColor` | string | Цвет редкости в формате hex (например, "0xFF43A047") |
