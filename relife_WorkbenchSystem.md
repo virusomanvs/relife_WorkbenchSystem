@@ -21,6 +21,8 @@
 | `availableCategories` | array | Доступные категории для крафта |
 | `attachmentList` | array | Список доступных слотов для инструментов |
 | `recipeList` | array | Список ID доступных рецептов |
+| `maxQueue` | int | Максимальна очередь |
+
 
 ## attachmentsList
 
@@ -67,6 +69,7 @@
 | `decraftToolsList` | array | Список инструментов для разборки предметов |
 | `attachmentList` | array | Список доступных слотов для приспособлений |
 | `availableCategories` | array | Доступные категории рецептов |
+| `maxQueue` | int | Максимальна очередь |
 | `recipeList` | array | Список ID доступных рецептов |
 
 ## craftRecipesList
