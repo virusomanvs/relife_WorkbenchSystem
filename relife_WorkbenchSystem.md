@@ -29,6 +29,7 @@
 | Параметр | Тип | Описание |
 |----------|-----|----------|
 | `attachType` | string | Тип приспособления (например, "Gloves", "RLF_BenchGrinder") |
+| `isSlot` | bool | Искать по имени слота а не по имени предмета. |
 | `consumeElectricPerSec` | float | Потребление электричества в секунду |
 | `coefCraftingTime` | float | Коэффициент времени крафта (0.5 = в 2 раза быстрее) |
 | `allowRepairableWithKitsFind` | integer | Разрешить поиск ремонтных наборов (1 - да, 0 - нет) |
