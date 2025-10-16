@@ -8,7 +8,7 @@
 | `addSkillPointsOfflinePlayer` | integer | Добавление очков навыков оффлайн игрокам (0 - отключено) |
 | `allowCraftInPlayer` | integer | Разрешить крафт в инвентаре игрока (1 - разрешено, 0 - запрещено) |
 | `debugResaveConfig` | integer | Режим отладки для пересохранения конфига (0 - отключен) |
-| `adminSteamID` | array | Массив Steam ID администраторов |
+| `adminSteamID` | array | Массив Steam ID администраторов кому доступно обновление конфигов |
 
 ## craftInPlayerSettings
 
