@@ -60,7 +60,7 @@
 | `allowRemoveQueueOtherPlayer` | integer | Разрешить другим игрокам удалять очередь (0 - нет, 1 - да) |
 | `uiTitleText` | string | Текст заголовка в UI |
 | `classnameWorkbench` | string | Имя класса верстака в игре |
-| `handleQueueMode` | integer | Режим обработки очереди (0 - по умолчанию) |
+| `handleQueueMode` | integer | Режим обработки очереди (-1 - по умолчанию, тот что в конфиге крафта) 0 оба, 1 только прямой |
 | `coefCraftTime` | float | Коэффициент времени крафта (1.1 = на 10% дольше) |
 | `canPlayerDeattachTools` | integer | Может ли игрок снимать инструменты (1 - да, 0 - нет) |
 | `ignoreBlockDeattachItems` | array | Список предметов, игнорирующих блокировку снятия |
