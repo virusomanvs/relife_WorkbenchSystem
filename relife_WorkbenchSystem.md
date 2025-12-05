@@ -66,7 +66,7 @@
 | `ignoreBlockDeattachItems` | array | Список предметов, игнорирующих блокировку снятия |
 | `canPlayerDecraft` | integer | Может ли игрок разбирать предметы (1 - да, 0 - нет) |
 | `enableIsKindOfToolList` | integer | Включить проверку типа инструмента (1 - да, 0 - нет) |
-| `decraftToolsList` | array | Список инструментов для разборки предметов |
+| `decraftToolsList` | array | Список инструментов для разборки верстака. Если пусто, верстак нельзя разобрать. |
 | `attachmentList` | array | Список доступных слотов для приспособлений |
 | `availableCategories` | array | Доступные категории рецептов |
 | `maxQueue` | int | Максимальна очередь |
